@@ -51,6 +51,7 @@ namespace test1
             this.button2.TabIndex = 1;
             this.button2.Text = "Выход";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
@@ -63,6 +64,7 @@ namespace test1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(485, 136);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
