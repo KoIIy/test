@@ -50,5 +50,21 @@ namespace TestApp
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                using (var db = new TraiderEntities())
+                {
+                    db.User.Add(new User { Login = LoginTextBox.Text, Passwqord = PasswordBox.Password });
+                    db.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
     }
 }

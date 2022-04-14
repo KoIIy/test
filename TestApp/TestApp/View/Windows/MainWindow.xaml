@@ -38,5 +38,12 @@
                 </Style>
             </Button.Resources>
         </Button>
+        <Button Content="Регистрация" Grid.Column="1" Grid.Row="3" Height="50" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20" Click="Button_Click_1">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </Grid>
 </Window>
