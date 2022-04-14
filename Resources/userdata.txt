@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <name>Королева Алиса Данииловна</name>
+    <login>dyjej</login>
+    <pass>Rg2PHz37</pass>
+    <role>1</role>
+  </row>
+  <row>
+    <name>Балашов Арсений Александрович</name>
+    <login>xiwaz</login>
+    <pass>NTGFk6TS</pass>
+    <role>1</role>
+  </row>
+  <row>
+    <name>Васильев Матвей Николаевич</name>
+    <login>hygyc</login>
+    <pass>CnhgXsLq</pass>
+    <role>1</role>
+  </row>
+  <row>
+    <name>Колпакова Елизавета Георгиевна</name>
+    <login>fobih</login>
+    <pass>PB1P6A97</pass>
+    <role>2</role>
+  </row>
+  <row>
+    <name>Попова Елена Семёновна</name>
+    <login>vicaz</login>
+    <pass>4djK2OQk</pass>
+    <role>3</role>
+  </row>
+  <row>
+    <name>Селезнев Дмитрий Давидович</name>
+    <login>zotag</login>
+    <pass>dicwyuTh</pass>
+    <role>1</role>
+  </row>
+  <row>
+    <name>Леонтьева София Александровна</name>
+    <login>katal</login>
+    <pass>duIveGic</pass>
+    <role>1</role>
+  </row>
+  <row>
+    <name>Гусева Ева Васильевна</name>
+    <login>xuloj</login>
+    <pass>iop6IvlV</pass>
+    <role>2</role>
+  </row>
+  <row>
+    <name>Зорина Алина Николаевна</name>
+    <login>qefup</login>
+    <pass>Jc8FMRXh</pass>
+    <role>3</role>
+  </row>
+  <row>
+    <name>Зыкова Елизавета Артёмовна</name>
+    <login>lubim</login>
+    <pass>aGxvViTw</pass>
+    <role>1</role>
+  </row>
+  <row>
+    <name>Николаева Екатерина Андреевна</name>
+    <login>gaguz</login>
+    <pass>NKilBcnY</pass>
+    <role>1</role>
+  </row>
+  <row>
+    <name>Сидорова Анастасия Матвеевна</name>
+    <login>voqoh</login>
+    <pass>GoQfGSU3</pass>
+    <role>1</role>
+  </row>
+</root>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1f9c3de151e14613b231cf3c3aad4190" Name="Diagram1">
+        <EntityTypeShape EntityType="Traider01Model.Adres" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Traider01Model.City" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Traider01Model.Company" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Traider01Model.Contract" Width="1.5" PointX="9.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Traider01Model.Order" Width="1.5" PointX="12" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Traider01Model.Role" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Traider01Model.Street" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Traider01Model.Tovar" Width="1.5" PointX="9.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Traider01Model.User" Width="1.5" PointX="7.5" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="Traider01Model.FK__Adres__StreetId__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="Traider01Model.FK__Company__AdresId__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="Traider01Model.FK__Street__CityId__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="Traider01Model.FK__Contract__Compan__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="Traider01Model.FK__Contract__UserId__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="Traider01Model.FK__Order__ContractI__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="Traider01Model.FK__Order__TovarID__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="Traider01Model.FK__User__RoleID__267ABA7A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
